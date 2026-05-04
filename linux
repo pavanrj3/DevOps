@@ -1,0 +1,21 @@
+1. A DevOps engineer uses Linux to run, manage, and maintain the project.
+
+2. A DevOps engineer uses Linux to manage the project in real time. Their job is to make sure the project:
+runs properly, stays online, is updated, is secure, performs well, recovers if something fails
+Developer writes the project
+Devops runs the project on Linux.
+
+3. Linux is the place where the project runs. If a company builds a website or app: 
+Developer writes code
+DevOps takes that code
+Runs it on Linux server
+Makes it available to users
+
+4. Simple project flow:
+Developer writes code
+Code is pushed to Git
+DevOps takes code
+DevOps deploys code on Linux server
+Linux runs the application
+Users access the application
+
