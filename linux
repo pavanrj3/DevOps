@@ -19,3 +19,55 @@ DevOps deploys code on Linux server
 Linux runs the application
 Users access the application
 
+Navigation Commands
+
+pwd	Show current directory
+ls	List files and folders
+ls -l	List files with details
+ls -a	Show hidden files
+cd folder	Move into a folder
+cd ~	Go to home directory
+cd ..	Move one folder back
+
+File & Directory
+
+mkdir folder	Create a folder
+mkdir -p a/b/c	Create nested folders
+touch file.txt	Create empty file
+cp file1 file2	Copy file
+mv file1 file2	Move or rename file
+rm file.txt	Delete file
+rm -r folder	Delete folder
+
+File Content
+
+cat file.txt	(Show full file content)
+less file.txt	(View file page by page)
+head file.txt	(Show first 10 lines)
+tail file.txt	(Show last 10 lines)
+tail -f file.txt	(Watch file updates live)
+echo "text" > file.txt	(Write text to file)
+echo "text" >> file.txt	(Append text to file)
+
+Search Commands
+
+grep "word" file.txt	    Search text in file
+grep -r "word" folder/	  Search text in folder
+find . -name file.txt   	Find file by name
+find / -type f -name "*.log"	         Find all log files
+which python	            Show command location
+whereis python	          Show command + docs location
+
+Networking Commands
+
+ip a	Show IP address
+ping google.com	Check network connection
+curl google.com	Test website/API response
+wget URL	Download file from URL
+ss -tuln	Show open ports
+netstat -tuln	Show listening ports
+nslookup google.com	Check DNS
+dig google.com	DNS lookup details
+
+
+
