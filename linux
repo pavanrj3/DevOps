@@ -21,13 +21,13 @@ Users access the application
 
 Navigation Commands
 
-pwd	Show current directory
-ls	List files and folders
-ls -l	List files with details
-ls -a	Show hidden files
-cd folder	Move into a folder
-cd ~	Go to home directory
-cd ..	Move one folder back
+pwd	      Show current directory
+ls	      List files and folders
+ls -l	    List files with details
+ls -a	    Show hidden files
+cd        folder	Move into a folder (change directory)
+cd ~	    Go to home directory
+cd ..	    Move one folder back
 
 File & Directory
 
@@ -60,14 +60,39 @@ whereis python	          Show command + docs location
 
 Networking Commands
 
-ip a	Show IP address
-ping google.com	Check network connection
-curl google.com	Test website/API response
-wget URL	Download file from URL
-ss -tuln	Show open ports
-netstat -tuln	Show listening ports
-nslookup google.com	Check DNS
-dig google.com	DNS lookup details
+ip a	               Show IP address
+ping google.com	     Check network connection
+curl google.com	     Test website/API response
+wget URL	           Download file from URL
+ss -tuln	           Show open ports
+netstat -tuln	       Show listening ports
+nslookup google.com	 Check DNS
+dig google.com	     DNS lookup details
+
+ext4 File System (Fourth Extended File System)
+It is the most commonly used Linux file system and the default file system in many Linux distributions like Ubuntu and Debian.
+
+What are logs?
+Logs are records of events that a system, application, or service writes while it is running.
+
+what are Docker?
+Docker is a container platform used to build, package, run, and manage applications inside containers.
+
+what are CI/CD Servers?
+CI/CD Servers are servers that automatically build, test, and deploy code whenever developers make changes. They are the automation engine behind modern DevOps pipelines.
+
+what are Cloud Servers?
+Cloud Servers are servers that run in the cloud instead of on your own physical machine. 
+
+what are Scripts and Automation?
+Scripts and Automation means writing commands in a file so the computer can do tasks automatically instead of you doing them manually.
+Scripts - Contain list of commands
+Automation - making the system do tasks automatically without manual work.
+
+
+
+
+
 
 
 
