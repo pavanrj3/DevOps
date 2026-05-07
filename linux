@@ -89,6 +89,14 @@ Scripts and Automation means writing commands in a file so the computer can do t
 Scripts - Contain list of commands
 Automation - making the system do tasks automatically without manual work.
 
+ping: Checks whether another system/server is reachable over the network.
+traceroute: Shows the path packets take from your system to destination server.
+host: Performs DNS lookups.
+dig: Advanced DNS lookup tool.
+curl: Transfers data from servers.
+ssh: Secure remote login to another machine.
+tcpdump: Captures and analyzes network packets.
+
 
 
 
