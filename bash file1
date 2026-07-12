@@ -64,7 +64,7 @@ countfiles() {
     count=$(ls -1 | wc -l)
     echo "Files/Directories: $count"
 }
-10. System Information
+ System Information
 sysinfo() {
     echo "User: $(whoami)"
     echo "Date: $(date)"
