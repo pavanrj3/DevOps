@@ -5,3 +5,69 @@ then
 else
         echo "You are not eligible for voting"
 fi
+
+#Voting Eligibility Checker
+votecheck() {
+    read -p "Enter age: " age
+
+    if [ "$age" -ge 18 ]; then
+        echo "Eligible to vote"
+    else
+        echo "Not eligible to vote"
+    fi
+}
+# Largest of Three Numbers
+largest() {
+    read -p "Enter three numbers: " a b c
+
+    if [ "$a" -ge "$b" ] && [ "$a" -ge "$c" ]; then
+        echo "$a is largest"
+    elif [ "$b" -ge "$c" ]; then
+        echo "$b is largest"
+    else
+        echo "$c is largest"
+    fi
+}
+# Multiplication Table
+table() {
+    read -p "Enter a number: " n
+
+    for i in {1..10}
+    do
+        echo "$n x $i = $((n*i))"
+    done
+}
+# Factorial of a Number
+factorial() {
+    read -p "Enter a number: " n
+
+    fact=1
+    for ((i=1;i<=n;i++))
+    do
+        fact=$((fact*i))
+    done
+
+    echo "Factorial = $fact"
+}
+# Student Details
+student() {
+    read -p "Enter Name: " name
+    read -p "Enter College: " college
+    read -p "Enter CGPA: " cgpa
+
+    echo "Name    : $name"
+    echo "College : $college"
+    echo "CGPA    : $cgpa"
+}
+# Count Files and Directories
+countfiles() {
+    count=$(ls -1 | wc -l)
+    echo "Files/Directories: $count"
+}
+10. System Information
+sysinfo() {
+    echo "User: $(whoami)"
+    echo "Date: $(date)"
+    echo "Current Directory: $(pwd)"
+    echo "Kernel Version: $(uname -r)"
+}
