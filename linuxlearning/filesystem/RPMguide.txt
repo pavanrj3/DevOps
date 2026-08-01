@@ -1,0 +1,13 @@
+What is source code?
+Any program that was written and readable by human is a source code.
+
+How programs are made and processed?
+A programer will write a source code, before the execution it will be processed.
+
+1) Natively Compiled code:
+Source code -> Compiler -> Machine code -> Program runs
+
+2)Interpeter code:
+Source code -> Interpeter -> Program runs
+
+
