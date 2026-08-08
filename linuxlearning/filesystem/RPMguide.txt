@@ -10,4 +10,6 @@ Source code -> Compiler -> Machine code -> Program runs
 2)Interpeter code:
 Source code -> Interpeter -> Program runs
 
-
+what is patching software
+it will patch the original file to patch file to keep it safe. 
+	

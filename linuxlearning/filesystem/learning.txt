@@ -97,7 +97,20 @@ curl: Transfers data from servers.
 ssh: Secure remote login to another machine.
 tcpdump: Captures and analyzes network packets.
 
+cd /var/log -> move to the system llog directory
+last messages -> view the contents of the messages log file page by page 
+last -> show recent user login history
+netstat -plntu -> display listing TCP and UDP ports with process names.
+systemctl stop cupsd -> Attempt to stop the CUPS printing services 
+ststemcl stop means it will stop serive in system
 
+systemctl disable cups -> prevent CUPS from starting automatically at boot.
+
+df -h -> display disk space usage in human-readable format.
+df -i -> display inode usage
+free -m -> show memory(RAM) usage in MB
+top -> Real-time system resource monitoring.
+uptime -> show system uptime and load average.	
 
 
 
