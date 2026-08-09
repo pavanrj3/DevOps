@@ -112,8 +112,40 @@ free -m -> show memory(RAM) usage in MB
 top -> Real-time system resource monitoring.
 uptime -> show system uptime and load average.	
 
+Cent OS installation step by step: 
 
+For OS installation 
 
+pc/laptop
+larger than 8gb pendrive like 16gb is fine
+internet connection
+CentOS ISO file
+Rufus on windows
 
+Insert USB Drive into your PC 
+Open rufus in windows, the rufus will detect youe usb drive and it will show on top as your Device Name: USB
+Boot selection: Select your ISO file
+Partition scheme: GPT
+Target system: UEFI
+at last click START and until Rufus says ready
+
+Then restart your pc/laptop
+press F12 when the logo appears, repeatedly
+This open the One time boot menu
+select your USB there and press ENTER
+you may see some options:
+select: Install CentOS Stream
+select:Language
+Installation summary
+slect your SSD: that means your installation destination
+For Network you needed Ethernet connected to your pc
+Create yout USER:
+Full name: ****
+username: ****
+Password: ****
+
+then start installtion and reboot your system.
+
+your installtion of Cent OS completed. 
 
 
