@@ -34,19 +34,12 @@ To start my career as a DevOps Engineer and build scalable, automated infrastruc
 ### Programming
 - Python
 - SQL
-- Java
-- C
+- Bash
 
 ### Databases
 - MySQL
 - PostgreSQL
 - MariaDB
-
-### Tools
-- VS Code
-- Jira
-- Zoho Analytics
-- Power BI
 
 ---
 
@@ -72,18 +65,10 @@ Worked with Python, SQL, Power BI, and Zoho Analytics to create dashboards and b
 
 ---
 
-## GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pavanrj3&show_icons=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pavanrj3&layout=compact)
-
----
-
 ## Connect With Me
 
 - GitHub: https://github.com/pavanrj3
-- LinkedIn: Add your LinkedIn profile here
+- LinkedIn: https://www.linkedin.com/in/pavansai-nagabhyru-101505311/
 
 ---
 
