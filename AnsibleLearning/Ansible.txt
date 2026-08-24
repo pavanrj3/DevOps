@@ -1,0 +1,77 @@
+
+what is Ansible?
+It is IT automation tool which is used to Automate tasks on servers and pcs
+
+It can install software, configure servers, Create users, Deploy applications.
+It can Manage 100s of servers at once
+
+Invetory files:
+An inventory file is a file which stores the information about the servers it will manage.
+Ex: web1 Ansible_Host= 192.163.0.1
+    web2 Ansible_Host= 192.172.0.2
+    db1 Ansible_host= 912.182.123.1
+    
+    Here we can see that there are two types of servers web server and database server
+
+1) Ansible web -i inventory -m ping -> with inventory for only web servers
+2) Ansible 192.163.0.1 -m ping -> with out inventory for particular server
+3) Asible All -i inventory -m ping -> with invenotry for all servers 
+
+Here we can observe that there are 3 different commands 
+1. For first commands the Ansible will connect for webservers.
+2. For Second command the Ansible will connect for the server of given ip.
+3. For Third command the Ansible will connect for the All servers in the inventory. 
+
+Real world Example:
+[web]
+web1
+web2
+web3
+
+[db]
+db1
+db2
+
+[app]
+app1
+app2
+
+with this command you can update all web servers-> Ansible web -m shell -a "uptime"
+
+
+Firewalls and IPTables:
+
+Firewalls:
+A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predefined security rules. Firewalls act as a barrier between trusted internal networks and untrusted external networks such as the Internet.
+
+Why Firewalls Are Important
+
+Without a firewall:
+
+Any open service on a server can be accessed by anyone.
+Attackers can scan ports and exploit vulnerabilities.
+Unauthorized users may gain access to systems.
+
+With a firewall:
+
+Only required ports are accessible.
+Unauthorized traffic is blocked.
+Security policies can be enforced.
+
+The most important firewalls layer for DevOps
+layer 3,4 and 7
+
+layer 3 - Network layer firewall 
+layer 4 - Transport layer firewall
+layer 7 - Application layer firewall
+
+IPTables :
+IPTables is a Linux firewall utility used to manage packet filtering and network traffic rules.
+
+IPTables is a command-line firewall utility in Linux that works with the Netfilter framework in the Linux kernel to control incoming, outgoing, and forwarded network traffic. It allows system administrators and DevOps engineers to define rules that determine whether network packets should be accepted, dropped, rejected, or logged. IPTables organizes rules into tables and chains. The most commonly used table is the filter table, which contains the INPUT, OUTPUT, and FORWARD chains. The INPUT chain manages traffic coming into the server, the OUTPUT chain controls traffic leaving the server, and the FORWARD chain handles traffic passing through the server. IPTables can filter traffic based on IP addresses, protocols (TCP, UDP, ICMP), port numbers, and connection states, making it a powerful tool for securing Linux systems.
+
+A common use case is allowing only essential services such as SSH (port 22), HTTP (port 80), and HTTPS (port 443) while blocking all other unnecessary traffic. For example, the command iptables -A INPUT -p tcp --dport 22 -j ACCEPT allows incoming SSH connections to the server. Organizations use IPTables to protect web servers, application servers, and databases from unauthorized access. Although many modern Linux distributions are moving toward NFTables as a successor, IPTables remains widely used and is an important skill for Linux administrators, system engineers, and DevOps professionals. Understanding IPTables helps in implementing security policies, reducing attack surfaces, and ensuring that only trusted network traffic reaches critical systems.
+
+
+
+
