@@ -102,7 +102,7 @@ last messages -> view the contents of the messages log file page by page
 last -> show recent user login history
 netstat -plntu -> display listing TCP and UDP ports with process names.
 systemctl stop cupsd -> Attempt to stop the CUPS printing services 
-ststemcl stop means it will stop serive in system
+systemctl stop means it will stop serive in system
 
 systemctl disable cups -> prevent CUPS from starting automatically at boot.
 
