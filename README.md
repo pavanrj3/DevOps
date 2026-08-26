@@ -72,7 +72,7 @@ Worked with Python, SQL, Power BI, and Zoho Analytics to create dashboards and b
 
 ---
 
- Thanks for visiting my profile!
+
 
  Scenario: If a file opened by a process. Why rm filename will not delete the data? How to delete the file opened by process. How to check file is opened by process?
 
